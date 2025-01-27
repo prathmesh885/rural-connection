@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="./assets/css/signup.css">
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <p>You are now logged in.</p>
+    <button onclick="logout()">Logout</button>
+
+    <script>
+        function logout() {
+          // sessionStorage.clear();
+            // Navigate back to the login page
+            window.location.href = "index.html"; // Replace with your actual login page
+        }
+
+        
+        if (!sessionStorage.getItem("isLoggedIn")) {
+    window.location.href = "index.html";
+}
+
+    </script>
+<script src="https://kit.fontawesome.com/4cb643b7f9.js" crossorigin="anonymous"></script>
+</body>
+</html>

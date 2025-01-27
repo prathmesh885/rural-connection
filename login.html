@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agricultural Products</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <a class="navbar-brand" href="#">Rural Connection</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+<!-- Navigation menu with links to home, about us, products, contact, and login/register.
+ -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="/index.html"
+                      >Home <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="/aboutus.html"
+                      >About Us<span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="/products.html"
+                      >Products<span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="/contact.html"
+                      >Contact Us<span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <input
+                    class="form-control mr-sm-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button
+                    class="btn btn-outline-success my-2 mr-2 my-sm-0"
+                    type="submit"
+                  >
+                    Search
+                  </button>
+                  <!-- <button type="button" class="btn btn-warning mr-2">
+                    <a href="/login.html" style="text-decoration: none;">Login</a>
+                  </button> -->
+<button type="button" class="btn btn-danger mr-2">
+    <a href="/signup.html" style="text-decoration: none;">Log Out</a>
+</button>
+</form>
+<!-- <ul class="navbar-nav">
+  <li class="nav-item">
+    <a class="nav-link" href="/cart.html"
+    >Cart<span class="sr-only">(current)</span></a>
+  </li>
+</ul> -->
+<button class="btn btn-outline-warning my-2 mr-2 my-sm-0"
+type="submit">
+  <a href="/ckeckout.html" style="text-decoration: none;">Cart</a>
+</button>
+
+
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Main Section -->
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://images.unsplash.com/photo-1642518939037-4652638c17a7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Farmer</h5>
+                          <p>cereals, vegetables, fruits, and legumes. </p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://plus.unsplash.com/premium_photo-1682092112837-3dcf3e85ea6c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Learning New Technology</h5>
+                          <p>GPS, sensors, and data analytics to monitor and manage crops more precisely</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1598837832073-2335964f90a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Bullock Cart</h5>
+                          <p>manual mode of transportation used in rural areas, typically powered by a pair of bullocks </p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Data -->
+<section>
+<div class="container-fluid mt-2">
+    <div class="row">
+        <div class="col-12">
+            <div class="jumbotron">
+                <h1 class="display-4">Rural internet connections</h1>
+                <p class="lead">GPS & IoT (Internet of Things) Devices: Farmers use GPS systems and IoT sensors to monitor soil conditions, weather, crop health, and irrigation needs in real-time. These sensors require a stable internet connection to send data to central systems for analysis and action.</p>
+                <hr class="my-4">
+                <p>Drones and Satellite Imaging: High-speed internet allows farmers to use drones or satellite images to monitor crop health, detect pests or diseases, and optimize irrigation and fertilization.</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+              </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- Image Section -->
+
+<div class="container-fluid">
+    <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://plus.unsplash.com/premium_photo-1686529896385-8a8d581d0225?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Carrots: </h5>
+              <p class="card-text">High in beta-carotene (vitamin A), carrots improve vision and support immune health.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1461354464878-ad92f492a5a0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tomatoes:</h5>
+              <p class="card-text">High in lycopene, tomatoes reduce the risk of heart disease and some cancers.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Carrots: </h5>
+              <p class="card-text">High in beta-carotene (vitamin A), carrots improve vision and support immune health.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://plus.unsplash.com/premium_photo-1667047165840-803e47970128?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sweet Corn</h5>
+              <p class="card-text">Sweet corn is a good source of carbohydrates, fiber, and essential nutrients. It provides a variety of vitamins and minerals, making it a nutritious addition to many meals.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+              <img src="https://plus.unsplash.com/premium_photo-1667052430061-bbdce8761fc2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">White onion plant</h5>
+                <p class="card-text">The roots grow from the onion’s basal plate (the flat, circular bottom of the bulb). This is where the roots emerge and spread out beneath the soil.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="https://plus.unsplash.com/premium_photo-1666877059056-f42ada662ccc?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lady Finger</h5>
+                <p class="card-text">The high fiber content promotes regular bowel movements and prevents constipation. The mucilage in okra also helps soothe the digestive tract.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="https://plus.unsplash.com/premium_photo-1668076517573-fa01307d87ad?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Onions</h5>
+                <p class="card-text">one of the most widely cultivated and consumed vegetables in the world. They are a staple in kitchens globally, used for flavoring, garnishing, and cooking in a variety of cuisines. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+              <div class="card">
+                <img src="https://plus.unsplash.com/premium_photo-1669205334136-8e66f7dfd833?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Garbanzo Beans</h5>
+                  <p class="card-text"> It’s a rich source of protein, fiber, and several essential nutrients, making it a staple in vegetarian and vegan diets. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="https://plus.unsplash.com/premium_photo-1667051230160-5906f5683a59?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dragon Fruit</h5>
+                  <p class="card-text">is a vibrant and exotic fruit that is increasingly popular worldwide for its unique appearance and health benefits. </p>
+                </div>
+              </div>
+            </div>
+      </div>
+</div>
+
+<!-- Footer -->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <ul class="nav navbar navbar-expand-lg navbar-dark bg-dark justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+              </ul>
+        </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/4cb643b7f9.js" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
